@@ -25,7 +25,20 @@ To write a Python program that demonstrates **operator overloading** by overload
 ---
 
 ## 💻 Program
+class A:<br>
+    def __init__(self, value):<br>
+        self.value = value<br>
+    def __lt__(self, other):<br>
+        return self.value < other.value<br>
+ob1 = A(20)<br>
+ob2 = A(3)<br>
+if ob2 < ob1:<br>
+    print("ob2 is less than ob1")<br>
+else:<br>
+    print("ob2 is not less than ob1")
 
 ## Output
+<img width="562" height="167" alt="image" src="https://github.com/user-attachments/assets/9ae3f342-bcd2-470d-9d7f-00f03aa1b20f" />
 
 ## Result
+Thus,the program excuted successfully.
